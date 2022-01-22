@@ -1,0 +1,115 @@
+.mat-card {
+    display: grid;
+    grid-template-columns: 2;
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: darkblue;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.mat-card #first-card {
+    padding: 0;
+}
+
+
+
+.card-titles {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 1%;
+    padding-left: 0%;
+    gap: 10px
+}
+
+p{
+    padding-left: 1%;
+}
+
+div#profile-background {
+    display: flex;
+    z-index: 1;
+}
+
+#info-img {
+    display: flex;
+    margin: 1%;
+}
+
+div#profile-background img {
+   width: 100%;
+   border-radius: 32px 32px 0 0;
+}
+
+
+.profile-image {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px ;
+    z-index: 1000;
+    position: relative;
+}
+
+div#info-actions{
+    display: flex;
+    margin: 20px;
+}
+
+div#info-data{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 1%;
+}
+
+div#info-profile{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+
+}
+
+.item-list{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.item-list li {
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+}
+
+
+h1 {
+    display: inline-block;
+}
+
+div#info-data ul#info-details {
+    display: inline;    
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+   
+}
+
+h2 {
+   display: inline-block;    
+   align-content: center;
+
+}
+
+div#info-data img{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 1px;
+}
+
+
+
+
+
+
+
